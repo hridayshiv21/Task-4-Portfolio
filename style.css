@@ -1,0 +1,234 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header & Navbar */
+/* Header & Navbar */
+header {
+    background-color: #ffffff;  /* Background changed to white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Added shadow for interactivity */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;  /* Space between logo and navigation items */
+    align-items: center;
+    padding: 0 20px;
+    
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Aligning the navigation links to the right */
+.nav-links {
+    list-style: none;
+    display: flex;
+    float: right; /* Pushes the navigation items to the right */
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Interactive Hover Effect */
+.nav-links a:hover {
+    background-color: #e76f51;
+    color: #fff;
+}
+
+
+/* Hero Section */
+.hero-section {
+    background-color: #264653;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #e76f51;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #f4a261;
+}
+
+/* Sections Styling */
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: #2a9d8f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Projects Section */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #e9c46a;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #e76f51;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #f4a261;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #f4a261;
+}
